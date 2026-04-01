@@ -1,0 +1,47 @@
+{
+    // Editor settings for formatting standards on this project
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always",
+    "editor.autoSurround": "languageDefined",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.wordWrap": "off",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    // git Settings
+    "git.autofetch": true,
+    "git.autofetchPeriod": 600,
+    "git.blame.editorDecoration.enabled": true,
+    "git.enableSmartCommit": true,
+    "git.smartCommitChanges": "all",
+    "git.replaceTagsWhenPull": true,
+    // Markdown Language Settings
+    "[markdown]": {
+        "editor.tabSize": 2,
+        "editor.wordWrap": "off",
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        }
+    },
+    // Markdown Lint Settings
+    "markdownlint.config": {
+        "default": true,
+        "no-hard-tabs": true,
+        "MD024": {
+            "siblings_only": true
+        },
+        "MD033": false,
+        "MD060": {
+            "aligned_delimiter": false,
+            "style": "compact"
+        }
+    }
+}
