@@ -1,6 +1,6 @@
 # ModuleAssembler Schema
 
-JSON Schema for Module Assembler data file named **moduleproject.json**
+JSON Schema for Module Assembler configuration data file named **moduleproject.json**
 
 ## Schema Properties
 
