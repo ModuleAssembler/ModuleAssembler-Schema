@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://raw.githubusercontent.com/ModuleAssembler/ModuleAssembler/refs/heads/main/src/resources/schema/v1.0.0/moduleassembler.schema.json",
+    "$id": "https://raw.githubusercontent.com/ModuleAssembler/ModuleAssembler-Schema/v1.0.0/schema/moduleassembler.schema.json",
     "title": "ModuleAssemblerSchema",
     "description": "ModuleAssembler data utilized when building a module.",
     "type": "object",
