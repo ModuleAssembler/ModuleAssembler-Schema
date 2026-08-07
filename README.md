@@ -28,10 +28,12 @@ JSON Schema for Module Assembler configuration data file named **moduleproject.j
 | Pester | `object` | no | | Pester Configuration Items. |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CodeCoverage | `object` | no | | Code Coverage Configuration. |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enabled | `boolean` | yes | true, `false` | Enable Code Coverage. |
-| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OutputFormat | `string` | no | `JaCoCo`, CoverageGutters, Cobertura | Format to use for code coverage report. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OutputFormat | `string` | no | `JaCoCo`, Cobertura | Format to use for code coverage report. |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CoveragePercentTarget | `number` | no | 0 - 100, `75` | Target percent of code coverage that you want to achieve. |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TestResult | `object` | no | | Test Result Configuration. |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enabled | `boolean` | yes | `true`, false | Enable Test Results. |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OutputFormat | `string` | no | NUnitXml, NUnit2.5, NUnit3, `JUnitXml` | Format to use for test result report. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Should | `object` | no | | Control behavior of Pester's Should assertions. |
+| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DisableV5 | `boolean` | yes | `true`, false | Disables usage of Should -Be assertions, that are replaced by Should-Be in version 6. |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Output | `object` | no | | Output Configuration. |
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Verbosity | `string` | yes | None, Normal, `Detailed`, Diagnostic | The verbosity of output. |
