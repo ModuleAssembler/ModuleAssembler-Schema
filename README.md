@@ -6,6 +6,7 @@ JSON Schema for Module Assembler configuration data file named **moduleproject.j
 
 | Property | Type | Required | Valid Values (`default`) | Description |
 | --- | --- | --- | --- | --- |
+| $schema | `string` | yes | | Relative path to the JSON schema used to validate the project file. |
 | ProjectName | `string` | yes | | Name of the module project. |
 | Description | `string` | yes | | Description of the functionality provided by this module. |
 | Version | `string` | yes | | Version number of this module, use Semantic Versioning. |

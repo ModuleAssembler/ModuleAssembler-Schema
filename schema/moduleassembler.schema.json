@@ -6,6 +6,10 @@
     "type": "object",
     "additionalProperties": false,
     "properties": {
+        "$schema": {
+            "description": "Relative path to the JSON schema used to validate this project file.",
+            "type": "string"
+        },
         "ProjectName": {
             "description": "Name of the module project.",
             "type": "string"
@@ -213,6 +217,7 @@
         }
     },
     "required": [
+        "$schema",
         "ProjectName",
         "Description",
         "Version",
